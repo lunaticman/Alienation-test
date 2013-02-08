@@ -1,0 +1,23 @@
+﻿Build started 2013-02-07 16:34:55.
+     1>Project "C:\Users\Lunatic\Documents\Projects\Alienation\Alienation.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Alienation.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D SFML_DYNAMIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CombatHandler.cpp Enemy.cpp EnemyVector.cpp Game.cpp Imagebank.cpp InputManager.cpp main.cpp Player.cpp
+         Player.cpp
+     1>c:\users\lunatic\documents\projects\alienation\player.cpp(40): warning C4305: '/=' : truncation from 'double' to 'float'
+         main.cpp
+     1>c:\users\lunatic\documents\projects\alienation\game.h(11): fatal error C1083: Cannot open include file: 'BulletHandler.h': No such file or directory
+         InputManager.cpp
+         Imagebank.cpp
+         Game.cpp
+     1>c:\users\lunatic\documents\projects\alienation\game.h(11): fatal error C1083: Cannot open include file: 'BulletHandler.h': No such file or directory
+         EnemyVector.cpp
+         Enemy.cpp
+         CombatHandler.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\Lunatic\Documents\Projects\Alienation\Alienation.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.20
