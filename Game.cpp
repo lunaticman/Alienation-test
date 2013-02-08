@@ -153,3 +153,6 @@ void Game::CheckForEvents() {
 }
 
 #pragma endregion
+
+/*
+TESTAR ATT UPDATERA KODEN TILL GIT*/
